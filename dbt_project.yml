@@ -48,4 +48,3 @@ vars:
     shopify_order_discount_code: "{{ ref('stg_shopify__order_discount_code') }}"
     shopify_abandoned_checkout_shipping_line: "{{ ref('stg_shopify__abandoned_checkout_shipping_line') }}"
     shopify_fulfillment_event: "{{ ref('stg_shopify__fulfillment_event') }}"
-    shopify_using_order_metafields: True ## False by default. Will enable ONLY the order metafield model.
